@@ -29,3 +29,24 @@ def users():
     }
 
 
+@app.route('/companies')
+def companies():
+    return {
+        'companies': [
+            {'id': 1, 'name': 'Tech Innovators Inc.', 'industry': 'Technology', 'location': 'San Francisco, CA', 'employees': 500},
+            {'id': 2, 'name': 'Health Solutions LLC', 'industry': 'Healthcare', 'location': 'New York, NY', 'employees': 300},
+            {'id': 3, 'name': 'EcoFriendly Co.', 'industry': 'Environmental Services', 'location': 'Seattle, WA', 'employees': 150},
+            {'id': 4, 'name': 'Finance Gurus Ltd.', 'industry': 'Financial Services', 'location': 'Chicago, IL', 'employees': 400},
+            {'id': 5, 'name': 'EduTech Partners', 'industry': 'Education Technology', 'location': 'Boston, MA', 'employees': 250},
+            {'id': 6, 'name': 'Retail Giants Corp.', 'industry': 'Retail', 'location': 'Los Angeles, CA', 'employees': 600},
+            {'id': 7, 'name': 'AutoMakers Inc.', 'industry': 'Automotive', 'location': 'Detroit, MI', 'employees': 350},
+            {'id': 8, 'name': 'Foodies United', 'industry': 'Food & Beverage', 'location': 'Austin, TX', 'employees': 200},
+            {'id': 9, 'name': 'Travel Experts Ltd.', 'industry': 'Travel & Tourism', 'location': 'Miami, FL', 'employees': 180},
+            {'id': 10, 'name': 'MediaWorks LLC', 'industry': 'Media & Entertainment', 'location': 'Atlanta, GA', 'employees': 220},
+            {'id': 11, 'name': 'Real Estate Pros', 'industry': 'Real Estate', 'location': 'Denver, CO', 'employees': 130},
+            {'id': 12, 'name': 'Logistics Masters Inc.', 'industry': 'Logistics & Supply Chain', 'location': 'Memphis, TN', 'employees': 270},
+            {'id': 13, 'name': 'Energy Solutions Co.', 'industry': 'Energy', 'location': 'Houston, TX', 'employees': 320},
+            {'id': 14, 'name': 'Consulting Experts Ltd.', 'industry': 'Consulting', 'location': 'Philadelphia, PA', 'employees': 210},
+            {'id': 15, 'name': 'NonProfit Heroes', 'industry': "Non-Profit", "location": "Washington, D.C.", "employees": 90},
+        ]
+    }
