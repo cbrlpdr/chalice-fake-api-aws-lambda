@@ -8,6 +8,13 @@ This is a sample Python API built using [AWS Chalice](https://aws.github.io/chal
 - **`/users`**: Returns a list of users with their details.
 - **`/companies`**: Returns a list of companies with their details.
 
+#
+<img src="./docs/ss1.png" width="400">
+<img src="./docs/ss2.png" width="400">
+<img src="./docs/ss3.png" width="400">
+
+
+
 ## Prerequisites
 
 Before deploying this project, ensure you have AWS credentials correctly configured in your machine.
